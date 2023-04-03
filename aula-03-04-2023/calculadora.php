@@ -27,9 +27,10 @@
 		return $divisao;  
 	}
 
+
 	$num1 = 50;
-	$num2 = 10;
-	$operador = "/";
+	$num2 = 15;
+	$operador = "*";
 
 	switch ($operador) {
 		case '+':
@@ -49,6 +50,6 @@
 			break;
 	}
 
-	print("$num1 $operador $num2 = ");
+	print("$num1 $operador $num2 = "); // melhorar a impresão
 	printf("%.2f", $resultado);
 ?>
