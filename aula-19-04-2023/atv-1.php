@@ -17,4 +17,4 @@
 	$media = $somaNotas / $cont;
 
 	echo "A média da sala é: $media. E a maior nota foi do aluno(a) $maiorNota com a nota $notas[$maiorNota]";
- ?>
+ ?>              
