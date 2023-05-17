@@ -7,12 +7,14 @@
     <title>Formulario - função get</title>
 </head>
 <body>
-    <form action="" method="get"> <!-- action aonde vai os valores de form  -->
+    <form action="verifica-usuario.php" method="post"> <!-- action aonde vai os valores de form  -->
 
-        Login:
-        <input type="text" name="nome"><br><br>
-        Senha:
-        <input type="password" name="senha"><br><br>
+        <label for="nome-usu">E-mail:</label> 
+        <input type="email" id="nome" name="nome-usu" autocomplete="off" maxlength="50" placeholder="Insira E-mail do usuario"><br><br>
+
+        <label for="senha-usu">Senha:</label>
+        <input type="password" id="senha" name="senha-usu" maxlength="8" placeholder="Insira somente números"><br><br>
+
         <input type="submit" value="enviar">
 
     </form>

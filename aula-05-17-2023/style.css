@@ -1,0 +1,18 @@
+body {
+    background-color: lightblue;    
+    font: normal 15pt arial;
+}
+
+.formulario {
+    background-color: lightgreen;
+    width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+    margin: auto;
+    
+}
+
+.operadores {
+    text-align: center;
+}
