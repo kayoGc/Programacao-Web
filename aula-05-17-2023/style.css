@@ -1,6 +1,7 @@
 body {
-    background-color: lightblue;    
-    font: normal 15pt arial;
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    font-size: 15pt;
 }
 
 .formulario {
@@ -9,10 +10,41 @@ body {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 1px 1px 1px black;
-    margin: auto;
-    
+    margin: 50px auto;
 }
 
 .operadores {
     text-align: center;
+}
+
+.label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15pt;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15pt;
+    cursor: pointer;
+}
+
+.resultado {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18pt;
 }

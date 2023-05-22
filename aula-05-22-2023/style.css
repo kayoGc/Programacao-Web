@@ -1,0 +1,16 @@
+body {
+    background-color: lightgreen;
+}
+
+.bloco-central {
+    display: flex;
+    margin: 500px auto;
+    width: 600px;
+}
+
+
+
+#enviar {
+    margin: 10px;
+    justify-content: center;
+}
