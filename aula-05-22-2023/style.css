@@ -1,11 +1,11 @@
-body {
-    background-color: lightgreen;
+* {
+    background-color: white;
 }
 
-.bloco-central {
+.bloco-primario {
     display: flex;
-    margin: 500px auto;
-    width: 600px;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -13,4 +13,8 @@ body {
 #enviar {
     margin: 10px;
     justify-content: center;
+}
+html{
+    --background: white;
+    --text: black;
 }
