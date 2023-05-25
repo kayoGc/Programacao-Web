@@ -16,122 +16,12 @@
   </head>
 
   <body>
-    <input name ="theme" type="checkbox" class="toggle-dark-mode">
     <div class="bloco-primario">
       <div class="bloco-secundario">
-        <input type="number" id="numero">
-        <input type="button" value="oi" onclick="opa()">
-        <form action="media.php" method="post">
-          <label>Aluno 1: </label>
-          <div class="input-group">
-            <div class="input-group-prepend">
-              <span class="input-group-text">Nome e nota</span>
-            </div>
-            <input
-              id="nome1"
-              name="nome1"
-              type="text"
-              class="form-control"
-              placeholder="nome"
-            />
-            <input
-              id="nota1"
-              name="nota1"
-              type="number"
-              class="form-control"
-              placeholder="nota"
-            />
-          </div>
-          <label>Aluno 2: </label>
-          <div class="input-group">
-            <div class="input-group-prepend">
-              <span class="input-group-text">Nome e nota</span>
-            </div>
-            <input
-              name="nome2"
-              type="text"
-              class="form-control"
-              placeholder="nome"
-            />
-            <input
-              name="nota2"
-              type="number"
-              class="form-control"
-              placeholder="nota"
-            />
-          </div>
-          <label>Aluno 3: </label>
-          <div class="input-group">
-            <div class="input-group-prepend">
-              <span class="input-group-text">Nome e nota</span>
-            </div>
-            <input
-              name="nome3"
-              type="text"
-              class="form-control"
-              placeholder="nome"
-            />
-            <input
-              name="nota3"
-              type="number"
-              class="form-control"
-              placeholder="nota"
-            />
-          </div>
-          <label>Aluno 4: </label>
-          <div class="input-group">
-            <div class="input-group-prepend">
-              <span class="input-group-text">Nome e nota</span>
-            </div>
-            <input
-              name="nome4"
-              type="text"
-              class="form-control"
-              placeholder="nome"
-            />
-            <input
-              name="nota4"
-              type="number"
-              class="form-control"
-              placeholder="nota"
-            />
-          </div>
-          <label>Aluno 5: </label>
-          <div class="input-group">
-            <div class="input-group-prepend">
-              <span class="input-group-text">Nome e nota</span>
-            </div>
-            <input
-              name="nome5"
-              type="text"
-              class="form-control"
-              placeholder="nome"
-            />
-            <input
-              name="nota5"
-              type="number"
-              class="form-control"
-              placeholder="nota"
-            />
-          </div>
-
-          <div class="d-flex justify-content-center">
-            <input
-              onclick="yes()"
-              id="enviar"
-              type="submit"
-              value="enviar"
-              class="btn btn-primary"
-            />
-          </div>
-        </form>
-        <input
-          type="button"
-          class="btn btn-primary"
-          value="opa"
-          onclick="yes()"
-        />
-      </div>
+        <form id="formulario" action="media.php" method="post">
+          <label for="numero">Quantos alunos serão cadastrados?</label>
+          <input class="form-control" type="number" name="numero" id="numero">
+          <input type="button" class="btn btn-primary botoes" value="confirmar" onclick="opa()">
     </div>
     
     <script

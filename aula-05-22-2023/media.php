@@ -1,10 +1,5 @@
 <?php
 
-    $notas = array($_POST['nome1'] => $_POST['nota1'],
-    $_POST['nome2'] => $_POST['nota2'],
-    $_POST['nome3'] => $_POST['nota3'], 
-    $_POST['nome4'] => $_POST['nota4'], 
-    $_POST['nome5'] => $_POST['nota5']);
 
     $somaNotas = 0;
     $maiorNota = 0;

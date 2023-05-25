@@ -8,13 +8,13 @@
     align-items: center;
 }
 
-
-
-#enviar {
-    margin: 10px;
-    justify-content: center;
+.bloco-secundario {
+    display: flex;
+    flex-direction: column;     
 }
-html{
-    --background: white;
-    --text: black;
+
+
+.botoes {
+    justify-content: center;
+
 }
