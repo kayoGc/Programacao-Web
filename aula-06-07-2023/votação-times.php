@@ -9,7 +9,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -22,31 +22,31 @@
                         <img src="imgs/palmeiras.png" class="imagem" alt="Logo palmeiras">
                         Palmeiras
                     </label>
-                    <input type="radio" class="form-check-input" name="times" id="opção1">
+                    <input value="Palmeiras" type="radio" class="form-check-input" name="times" id="opção1">
                 </div>
 
                 <div class="form-check">
                     <label for="opção2" class="form-check-label">
-                        <img src="imgs/palmeiras.png" class="imagem" alt="Logo palmeiras">
-                        Palmeiras
+                        <img src="imgs/santos.png" class="imagem" alt="Logo palmeiras">
+                        Santos
                     </label>
-                    <input type="radio" class="form-check-input" name="times" id="opção2">
+                    <input value="Santos" type="radio" class="form-check-input" name="times" id="opção2">
                 </div>
 
                 <div class="form-check">
                     <label for="opção3" class="form-check-label">
-                        <img src="imgs/palmeiras.png" class="imagem" alt="Logo palmeiras">
-                        Palmeiras
+                        <img src="imgs/corinthians.png" class="imagem" alt="Logo palmeiras">
+                        Corinthians
                     </label>
-                    <input type="radio" class="form-check-input" name="times" id="opção3">
+                    <input value="Corinthians" type="radio" class="form-check-input" name="times" id="opção3">
                 </div>
 
                 <div class="form-check">
                     <label for="opção4" class="form-check-label">
-                        <img src="imgs/palmeiras.png" class="imagem" alt="Logo palmeiras">
-                        Palmeiras
+                        <img src="imgs/sao-paulo.png" class="imagem" alt="Logo palmeiras">
+                        São Paulo
                     </label>
-                    <input type="radio" class="form-check-input" name="times" id="opção4">
+                    <input value="São Paulo" type="radio" class="form-check-input" name="times" id="opção4">
                 </div>
             </div>
 
