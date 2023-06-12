@@ -43,7 +43,7 @@
 
                 <div class="form-check">
                     <label for="opção4" class="form-check-label">
-                        <img src="imgs/sao-paulo.png" class="imagem" alt="Logo palmeiras">
+                        <img src="imgs/são paulo.png" class="imagem" alt="Logo palmeiras">
                         São Paulo
                     </label>
                     <input value="São Paulo" type="radio" class="form-check-input" name="times" id="opção4">

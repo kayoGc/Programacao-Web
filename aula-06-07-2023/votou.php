@@ -8,25 +8,26 @@
     <title>Votado!</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body onload="verificarImagem()">
-    <?php 
-        $timeVotado = $_POST['times'];
-    ?>
+
     <div class="grupo1">
-        <h1>Você votou no <?php echo $timeVotado; ?>!</h1>
-        <label id="timeVotado"><?php $timeVotado;?></label>
+        <h1> 
+        <?php 
+            if(isset($_COOKIE['votou'])) {
+                $timeVotado = "pare";
+                print("Você já votou antes!");
+            } else {
+                $timeVotado = $_POST["times"];
+                print("Você votou no $timeVotado");
+                setcookie('votou', 'sim');
+            }
+        ?>!</h1>
+        <label id="timeVotado" hidden><?php echo $timeVotado;?></label>
+        <div id="imagem"></div>
     </div>
-    <div id="imagem"></div>
+    
 
-    <script>
-    function verificarImagem() {
-        let imagem = document.getElementById("imagem");
-        let timeVotado = document.querySelector("label#timeVotado").textContent;
-
-        imagem.innerHTML = `<label>a</label>`;
-    } 
-    </script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
