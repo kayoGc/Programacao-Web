@@ -11,7 +11,12 @@
         mysqli_connect_error();
         
     } else {
-        echo "Conexão Aberta";
+        $sql = "CREATE DATABASE db_2HPW2";
+            if(mysqli_query($con,$sql)){
+                echo "<br/> base de Dados Criada com Sucesso!!";
+            }else{
+                echo "<br/> Erro: " . mysqli_connect_error();
+            }
 
         mysqli_close($con);
 
