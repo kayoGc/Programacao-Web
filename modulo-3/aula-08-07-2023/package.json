@@ -1,8 +1,0 @@
-{
-  "scripts": {
-    "start-css": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch"
-  },
-  "dependencies": {
-    "tailwindcss": "^3.3.3"
-  }
-}
