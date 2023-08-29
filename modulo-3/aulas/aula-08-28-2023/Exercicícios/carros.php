@@ -8,7 +8,7 @@ class Carro {
     var $Velocidade = 0;
 
     function Acelerar() {
-        
+        $this->Velocidade++;
     }
 
     function InformarCar() {
