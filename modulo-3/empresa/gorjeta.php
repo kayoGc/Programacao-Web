@@ -2,7 +2,7 @@
     class Gorjeta {
         public $valor;
         public $qualidade;
-        public $gorjeta;
+        protected $gorjeta;
 
         function __construct($valor, $qualidade)
         {
