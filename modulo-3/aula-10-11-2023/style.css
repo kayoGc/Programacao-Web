@@ -1,0 +1,20 @@
+body, form, .labels, .inputs, .formulario {
+    display: flex;
+}
+
+body, form, .labels, .inputs {
+    flex-direction: column;
+}
+
+.labels, .inputs {
+    margin: 1rem;
+}
+
+label, input, select {
+    margin: 5px;
+}
+
+body, .labels {
+    align-items: center;
+    justify-content: center;
+}

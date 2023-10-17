@@ -6,7 +6,7 @@
         private $nascimento;
         protected $salario;
 
-        // function __construct($codigo, $nome, $nascimento, $salario)
+        // private function __construct($codigo, $nome, $nascimento, $salario)
         // {
         //     $this->codigo = $codigo;
         //     $this->nome = $nome;
