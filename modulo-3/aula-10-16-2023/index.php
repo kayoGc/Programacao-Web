@@ -14,39 +14,7 @@
         include 'jogoMemoria.php';
 
         $jogo = new JogoMemoria();
-        $fotos = $jogo->getFotos();
+        echo $jogo->fazerJogo();
     ?>
-    <div>
-        <?php 
-            for ($i = 0; $i < sizeof($fotos) * 2; $i++) {
-            $count = 0;
-            if ($count == 0) {
-        ?>
-            <img class="imgTop img<?php echo $i ?>" id="img<?php echo $i ?>" onclick="opaClicou<?php echo $i ?>()" src="img/interrogation.jpeg" alt="interrogação">
-        <?php 
-            $count++;
-            } else {
-            ?>
-            <img class="imgTop img<?php echo $i - 1 ?>" id="img<?php echo $i ?>" onclick="opaClicou<?php echo $i ?>()" src="img/interrogation.jpeg" alt="interrogação">
-            $count--;
-        <?php }} ?>
-    </div>
-
-    <script>
-        <?php 
-            $index = 0;
-            for ($i = 0; $i < sizeof($fotos) * 2; $i++) {
-                $count = 0;
-            
-        ?>
-        function opaClicou<?php echo $i; ?>() {
-            let img = document.querySelector('img.img<?php echo $i; ?>');
-            img.setAttribute('src', '<?php echo $fotos[$index]; ?>');
-        }
-
-        <?php $count++;
-              if($count % 2 == 0) $index++;} ?>
-
-    </script>
 </body>
 </html>
